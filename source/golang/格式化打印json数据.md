@@ -1,6 +1,6 @@
 ### 格式化打印json数据
 
-    func viewFormatJson(obj interface{}) {
+    func PrintJson(obj interface{}) {
         jsonByte, err := json.Marshal(obj)
         if err != nil {
             fmt.Println(err)
